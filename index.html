@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin-fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+
+<body class="font-roboto">
+    <section class="bg-[#FFFBF0] min-h-screen md:h-[700px]">
+        <!-- Navbar Strat -->
+        <div class="flex justify-between items-center w-[80%] md:w-[80%] mx-auto pt-5 md:pt-11 pb-5">
+            <div>
+                <img src="icons/logo.png" class="w-[150px] md:w-[200px]" alt="Penguin Fashion Logo">
+            </div>
+            <div class="hidden sm:block">
+                <a class="font-medium mr-4 md:mr-10 hover:text-[#7ca805]" href="">Home</a>
+                <a class="font-medium mr-4 md:mr-10 hover:text-[#7ca805]" href="">Products</a>
+                <a class="font-medium mr-4 md:mr-10 hover:text-[#7ca805]" href="">About us</a>
+                <a class="font-medium hover:text-[#7ca805]" href="">Contact us</a>
+            </div>
+            <div class="block sm:hidden text-2xl">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <!-- Navbar End -->
+    </section>
 </body>
+
 </html>
