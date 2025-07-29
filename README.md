@@ -27,7 +27,7 @@ A modern and responsive **fashion e-commerce landing page** designed using **HTM
 
 ## 📸 Screenshot
 
-<img src="https://i.postimg.cc/Y9sqn5w0/penguin-fashion-screenshot.png" alt="Penguin Fashion Screenshot" width="1000"/>
+<img src="https://ik.imagekit.io/yqnbhdlo4/Img/screencapture-amdadislam01-github-io-penguin-fashion-shop-2025-07-29-16_07_40.png?updatedAt=1753783720475" alt="Penguin Fashion Screenshot" width="1000"/>
 
 
 ---
